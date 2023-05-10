@@ -15,8 +15,8 @@ public class SpringBootMailApplication {
 		IPurchaseOrder order = context.getBean(IPurchaseOrder.class);
 		try {
 			String msg = order.purchase(new String[] { "fossil ", "t-shirt", "shoes" },
-					new double[] { 2345.98, 5647.09, 897.09 }, new String[] { "senchasuresh44@gmail.com",
-							"seervisencha44@gmail.com", "senchasuresh99@gmail.com" });
+					new double[] { 2345.98, 5647.09, 897.09 }, new String[] { "aaaa@gmail.com",
+							"bbbb@gmail.com", "ccccc@gmail.com" });
 			System.out.println(msg);
 		} catch (Exception e) {
 			e.printStackTrace();
